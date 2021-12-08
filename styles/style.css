@@ -75,7 +75,7 @@
 }
 .link:hover{
   text-decoration: underline;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2) ;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
 
 .header__main-illustration{
@@ -150,7 +150,7 @@
 .table__text{
   font-size: 18px;
   line-height: 1.2;
-  margin: 0
+  margin: 0;
 }
 .table__text:not(:last-child){
   padding: 0 0 10px;
@@ -261,7 +261,7 @@
 }
 .footer__column-link:hover{
   text-decoration: underline;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4) ;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
 }
 .footer__column-icon {
   padding: 0 20px 0 0;
