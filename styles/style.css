@@ -1,3 +1,5 @@
+@import url(./normalize.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -144,19 +146,21 @@
   width: 250px;
   margin: 60px 0 0;
 }
-.table__cell >*:not(:last-child){
-  margin: 0 0 20px;
-}
 .table__heading{
   font-size: 24px;
   line-height: 1.15;
   font-weight: bold;
+  margin: 0 0 20px;
 }
 .table__text{
   font-size: 18px;
   line-height: 1.2;
   margin: 0;
 }
+.table__text:not(:last-child){
+  margin: 0 0 20px;
+}
+
 /*-----Feynman-----------------------------------------------------------------*/
 .feynman{
   min-height: 890px;
@@ -228,7 +232,7 @@
   padding: 60px 0 40px 0;
   box-sizing: border-box;
 }
-.footer__columns_content_copyright{
+.footer__column_content_copyright{
   flex-basis: 711px;
   justify-content: space-between;
   display: flex;
@@ -247,10 +251,6 @@
   padding: 18px 0;
 }
 
-.footer__columns_content_info, .footer__columns_content_social{
-  margin: 0;
-
-}
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
