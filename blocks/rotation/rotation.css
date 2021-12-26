@@ -1,5 +1,3 @@
-@import url(./_ifiniti/rotation-infiniti.css);
-
 @keyframes rotation {
     from {
         transform: rotate(0deg);

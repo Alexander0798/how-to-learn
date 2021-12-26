@@ -1,10 +1,3 @@
-@import url(../table/table.css);
-@import url(../table/__cell/_theme/table__cell_theme_dark.css);
-@import url(./__triangle/kaufman__triangle.css);
-@import url(../section/_title/_theme/section-title_theme_dark.css);
-@import url(../section/_subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../section/_subtitle/_theme/section-subtitle_theme_dark.css);
-
 .kaufman{
   padding: 90px 0;
   position: relative;
