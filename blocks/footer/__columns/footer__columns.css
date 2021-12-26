@@ -1,0 +1,13 @@
+@import url(./_content/footer__columns_content_copyright.css);
+@import url(./_content/footer__columns_content_info.css);
+@import url(./_content/footer__columns_content_social.css);
+
+.footer__columns{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 350px;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+}
