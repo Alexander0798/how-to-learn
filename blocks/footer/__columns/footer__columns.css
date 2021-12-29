@@ -1,7 +1,3 @@
-@import url(./_content/footer__columns_content_copyright.css);
-@import url(./_content/footer__columns_content_info.css);
-@import url(./_content/footer__columns_content_social.css);
-
 .footer__columns{
   display: flex;
   justify-content: space-between;

@@ -3,3 +3,6 @@
   line-height: 1.2;
   margin: 0;
 }
+.table__text:not(:last-child){
+  margin: 0 0 20px;
+}
