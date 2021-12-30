@@ -5,3 +5,5 @@
 @import url('/blocks/page/page.css');
 
 /*--------------------------------------------------------------------------------------------------------*/
+@import url('/blocks/resources/__logo/resources__logo.css');
+@import url('/blocks/footer/__author/footer__author.css');
