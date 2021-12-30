@@ -6,4 +6,8 @@
         transform: rotate(360deg);
     }
 }
+.rotation-infiniti{
+  animation: rotation 20s infinite linear;
+}
+
 
