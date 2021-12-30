@@ -1,6 +1,6 @@
 .feynman{
   min-height: 890px;
-  background: url('/images/feynman.png') bottom left / auto no-repeat;
+  background: url('../../images/feynman.png') bottom left / auto no-repeat;
   position: relative;
   background-color: #f2f2f2;
 }
