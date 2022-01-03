@@ -6,7 +6,7 @@
 
 /*------rotation---------------------------------------------------------------------------------------------*/
 
-@import url('../blocks/rotation/rotation.css');
+@import url('../blocks/rotation-infiniti/rotation-infiniti.css');
 
 /*------header---------------------------------------------------------------------------------------------*/
 
@@ -36,7 +36,7 @@
 /*------link---------------------------------------------------------------------------------------------*/
 
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/__logo/link__logo.css');
+@import url('../blocks/link/_logo/link_logo.css');
 
 /*------description---------------------------------------------------------------------------------------------*/
 
@@ -50,12 +50,6 @@
 @import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
 
-/*------techniques---------------------------------------------------------------------------------------------*/
-
-@import url('../blocks/techniques/techniques.css');
-@import url('../blocks/techniques/__title/techniques__title.css');
-@import url('../blocks/techniques/__subtitle/techniques__subtitle.css');
-
 /*------cards---------------------------------------------------------------------------------------------*/
 
 @import url('../blocks/cards/cards.css');
@@ -66,9 +60,7 @@
 
 /*------video---------------------------------------------------------------------------------------------*/
 
-@import url('../blocks/video/video.css');
 @import url('../blocks/video/__title/video__title.css');
-@import url('../blocks/video/__subtitle/video__subtitle.css');
 @import url('../blocks/video/__iframes/video__iframes.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
 
@@ -92,12 +84,11 @@
 /*------table---------------------------------------------------------------------------------------------*/
 
 @import url('../blocks/table/table.css');
-@import url('../blocks/table/_theme/table_theme_dark.css');
 @import url('../blocks/table/__text/table__text.css');
 @import url('../blocks/table/__heading/table__heading.css');
 @import url('../blocks/table/__cell/table__cell.css');
 @import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
-@import url('../blocks/table/__heading/_theme/table__heading_theme_dark.css');
+
 
 /*------khan---------------------------------------------------------------------------------------------*/
 
