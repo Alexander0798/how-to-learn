@@ -1,3 +1,5 @@
 .footer__column-icon {
- margin: 0 10px -2px 0;
+  width: 16px;
+  height: 16px;
+  margin: 0 10px -2px 0;
 }
