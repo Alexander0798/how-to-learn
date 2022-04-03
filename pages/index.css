@@ -135,3 +135,14 @@
 
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/_active/popup_active.css');
+
+.back-arrow {
+  display: block;
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  background: url('../../../img/back_arrow.svg');
+}
