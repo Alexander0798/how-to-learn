@@ -1,0 +1,12 @@
+.khan__button{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: rgba(47, 128, 237, 0.651);
+  font-size: 30px;
+  line-height: 42px;
+  border: none;
+  color: #fff;
+  padding: 5px  10px 5px 0;
+  cursor: pointer;
+}

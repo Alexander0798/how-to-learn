@@ -237,7 +237,10 @@
                 alt="картинка книги: Салман Хан 'весь мир школа'"
                 class="khan__book-pic"
               />
+              <div class="khan__link-container">
               <a href="" class="khan__buy-link link">Купить книгу</a>
+              <button type="button" class="khan__button">Получить отрывок</button>
+            </div>
             </div>
           </div>
         </section>
@@ -346,6 +349,29 @@
             /></a>
           </div>
         </section>
+        <div class="popup">
+          <div class="popup__container">
+            <button type="button" class="popup__button-close"></button>
+            <h2 class="popup__title">Мы&nbsp;отправим вам книгу на&nbsp;E-mail заполните&nbsp;форму!</h2>
+            <form class="popup__form" action="#" name="получить отрывок">
+              <h3 class="popup__title-checkbox">Выберите формат книги</h3>
+              <div class="popup__value-container">
+                <label for="pdf" class="popup__label-checkbox">pdf</label>
+                <input type="checkbox" required name="pdf" id="pdf" class="popup__checkbox">
+                <label for="fb2" class="popup__label-checkbox">fb2</label>
+                <input type="checkbox" name="fb2" id="fb2" class="popup__checkbox">
+                <label for="epub" class="popup__label-checkbox">epub</label>
+                <input type="checkbox" name="epub" id="epub" class="popup__checkbox">
+                <label for="doc" class="popup__label-checkbox">doc</label>
+                <input type="checkbox" name="doc" id="doc" class="popup__checkbox">
+              </div>
+              <input type="text" required name="name" class="popup__input" placeholder="Ваше Имя" id="inputRecipientName">
+              <input type="email" required name="email" class="popup__input" placeholder="Ваш E-mail" id="inputRecipientEmail">
+              <input type="tel" required name="phone" class="popup__input" placeholder="Ваш Телефон" id="inputRecipientTel">
+              <button type="submit" class="popup__button button">Получить Книгу</button>
+            </form>
+          </div>
+        </div>
       </main>
 
       <footer class="footer">
@@ -395,5 +421,6 @@
         </div>
       </footer>
     </div>
+   <script src="./js/script.js"></script>
   </body>
 </html>
