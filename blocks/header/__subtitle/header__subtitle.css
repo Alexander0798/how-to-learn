@@ -1,5 +1,5 @@
 .header__subtitle{
-  width: 388px;
+  max-width: 388px;
   font-size: 18px;
   line-height: 25px;
   position: absolute;
@@ -7,4 +7,10 @@
   left: 64px;
   margin: 0;
   z-index: 2;
+  padding: 0 10px;
+}
+@media (max-width: 460px) {
+  .header__subtitle{
+    left: 32px;
+  }
 }

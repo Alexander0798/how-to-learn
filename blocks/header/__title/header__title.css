@@ -1,9 +1,15 @@
 .header__title{
-  width: 730px;
+  max-width: 730px;
   font-size: 102px;
-  line-height: 96px;
+  line-height: calc(102/96);
   align-self: center;
   padding: 0 0 0 64px;
   margin: 0;
   z-index: 2;
+}
+@media (max-width: 460px) {
+  .header__title{
+  font-size: 50px;
+  padding: 0 0 0 32px;
+  }
 }

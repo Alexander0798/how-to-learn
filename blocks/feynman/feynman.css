@@ -4,3 +4,9 @@
   position: relative;
   background-color: #f2f2f2;
 }
+@media (max-width: 768px) {
+  .feynman{
+    min-height: 445;
+    background: #f2f2f2;
+  }
+}

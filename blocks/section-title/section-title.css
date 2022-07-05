@@ -1,9 +1,13 @@
-.section-title{
+.section-title {
   margin: 0 auto 20px;
   text-align: center;
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
   max-width: 60%;
-
+}
+@media (max-width: 680px) {
+  .section-title {
+    font-size: 30px;
+  }
 }

@@ -1,9 +1,14 @@
 .video__iframe{
-  width: 515px;
+  max-width: 515px;
   height: 316px;
   border: none;
   z-index: 10;
 }
 .video__iframe:not(:last-child){
   margin: 0 20px 0 0;
+}
+@media (max-width: 1045px) {
+  .video__iframe:not(:last-child){
+    margin: 0 0 20px 0;
+  }
 }

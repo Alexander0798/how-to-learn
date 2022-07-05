@@ -1,6 +1,11 @@
-.two-columns{
+.two-columns {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 680px) {
+  .two-columns {
+    flex-wrap: wrap;
+  }
 }

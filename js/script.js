@@ -4,13 +4,13 @@ const popup = page.querySelector('.popup');
 const popupButtonClose = popup.querySelector('.popup__button-close');
 const formElement = page.querySelector('.popup__form')
 
-function opnePopup(){
+function opnePopup() {
   popup.classList.add('popup_active')
 }
-function closePopup(){
+function closePopup() {
   popup.classList.remove('popup_active')
 }
-function closePopupByClickOnOverlay (event) {
+function closePopupByClickOnOverlay(event) {
   if (event.target !== event.currentTarget) {
     return;
   } else {

@@ -4,3 +4,11 @@
   object-fit: cover;
   object-position: top;
 }
+@media (max-width: 1024px) {
+  .khan__book-pic{
+    width: 304px;
+    height: 310px;
+    object-fit: cover;
+    object-position: top;
+  }
+}

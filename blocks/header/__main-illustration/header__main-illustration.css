@@ -6,3 +6,10 @@
   height: 608px;
   z-index: 1;
 }
+@media (max-width: 768px) {
+  .header__main-illustration{
+    width: calc(765px / 2);
+    height: calc(608px / 2);
+    opacity: .8;
+  }
+}
